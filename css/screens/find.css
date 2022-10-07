@@ -29,6 +29,7 @@
     color: var(--font-color-gray);
 }
 
+
 .post-photo img {
     height: 334px;
     opacity: .8;
@@ -48,6 +49,11 @@
 .post-content span {
     font-size: 10px;
     color: var(--font-color-lightgray);
+}
+
+.post-content span:hover {
+    color: var(--main-color);
+    cursor: pointer;
 }
 
 .post-info {
@@ -72,4 +78,12 @@
 }
 .post-info___column:last-child span {
     font-size: 12px;
+}
+
+.post-info .post-info___column:first-child i {
+    transition: all .2s;
+}
+
+.post-info .post-info___column:first-child i:hover {
+    color: var(--main-color);
 }

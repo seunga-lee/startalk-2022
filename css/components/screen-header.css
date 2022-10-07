@@ -26,3 +26,63 @@
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+
+@keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+@keyframes vibrate-1 {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+
+
+.fa-gear:hover {
+    -webkit-animation:rotate-center 1s ease-in-out infinite;
+    animation:rotate-center 1s ease-in-out infinite;
+}
+
+.screen-header__icon {
+    position: relative;
+}
+
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+}
+
+.settings-nofi {
+    position: absolute;
+    top: -12px;
+    left: 130px;
+    display: block;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background-color: #FF3210;
+    animation: blink-effect 1s ease-in-out infinite;
+}

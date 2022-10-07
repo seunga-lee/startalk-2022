@@ -16,6 +16,7 @@
 @import url("screens/friends.css");
 @import url("screens/chat.css");
 @import url("screens/find.css");
+@import url("screens/more.css");
 
 body{
     -ms-overflow-style: none;
