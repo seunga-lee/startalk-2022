@@ -1,0 +1,28 @@
+@import url("reset.css");
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+
+
+/* components */
+@import url("components/status-bar.css");
+@import url("components/screen-header.css");
+@import url("components/user-component.css");
+@import url("components/channel-box.css");
+@import url("components/nav-bar.css");
+@import url("components/no-moblie.css");
+
+/* screen */
+@import url("screens/login.css");
+@import url("screens/friends.css");
+@import url("screens/chat.css");
+
+
+body{
+    -ms-overflow-style: none;
+    font-family: 'SUIT';
+
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+

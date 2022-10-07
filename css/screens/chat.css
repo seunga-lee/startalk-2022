@@ -1,0 +1,7 @@
+.chats-screen {
+    padding: 0 var(--horizon-border);
+}
+
+.a-href__chat {
+    text-decoration: none;
+}

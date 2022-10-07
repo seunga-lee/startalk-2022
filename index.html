@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3cd3ff0ee.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/startalk-logo.png"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>STARTALK</title>
+</head>
+<body>
+    <div class="status-bar">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class=welcome-header__title>어서오세요!</h1>
+        <p class=welcome-header__text>
+            이메일이나 핸드폰 번호로 로그인 할 수 <br> 있습니다.
+        </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="이메일이나 핸드폰 번호를 입력해주세요">
+        <input name="password" type="password" placeholder="비밀번호를 입력해주세요">
+        <input type="submit" value="로그인" />
+        <p><a href="#">아이디</a> 혹은 <a href="#">비밀번호</a> 찾기</p>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
+</body>
+</html>
