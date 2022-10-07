@@ -9,12 +9,13 @@
 @import url("components/channel-box.css");
 @import url("components/nav-bar.css");
 @import url("components/no-moblie.css");
+@import url("components/story.css");
 
 /* screen */
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/chat.css");
-
+@import url("screens/find.css");
 
 body{
     -ms-overflow-style: none;

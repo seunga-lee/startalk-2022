@@ -1,0 +1,75 @@
+.post-user,
+.post-info,
+.post-content {
+    margin: 18px 24px 14px 24px;
+}
+
+.post-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-user__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.post-user__column img {
+    height: 46px;
+    border-radius: 23px;
+    margin-right: 10px;
+}
+
+.post-user__column h1 {
+    font-size: 20px;
+
+}
+.post-user__column i {
+    color: var(--font-color-gray);
+}
+
+.post-photo img {
+    height: 334px;
+    opacity: .8;
+}
+
+.post-content p {
+    margin-bottom: 6px;
+    color: var(--font-color-dark);
+    font-size: 16px;
+}
+
+.post-content p:first-child {
+    border-left: 2px solid var(--main-color);
+    padding-left: 4px;
+}
+
+.post-content span {
+    font-size: 10px;
+    color: var(--font-color-lightgray);
+}
+
+.post-info {
+    color: var(--font-color-gray);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.post-info___column:first-child i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.post-info___column:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.post-info___column:last-child i {
+    margin-right:4px;
+}
+.post-info___column:last-child span {
+    font-size: 12px;
+}

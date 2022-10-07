@@ -1,0 +1,41 @@
+.story {
+    margin: 6px 24px;
+    position: relative;
+    display: flex;
+}
+
+.story__icon {
+    margin-right: 18px;
+}
+.story__icon img{
+    height: 64px;
+    border-radius: 40px;
+}
+
+.story__icon-plus {
+    height: 16px;
+    padding: 2px 0;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #A682DC;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 44px;
+    left: 46px;
+}
+
+.story__icon-sm img{
+    height: 60px;
+    margin: 2px;
+    opacity: .8;
+}
+
+.story__icon:nth-child(2),
+.story__icon:nth-child(3) {
+    border: 2px solid #A682DC;
+    height: 64px;
+    width: 64px;
+    border-radius: 40px;
+}
