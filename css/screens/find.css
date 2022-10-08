@@ -33,6 +33,7 @@
 .post-photo img {
     height: 334px;
     opacity: .8;
+    overflow-x: hidden;
 }
 
 .post-content p {

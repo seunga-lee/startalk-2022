@@ -86,3 +86,34 @@
     background-color: #FF3210;
     animation: blink-effect 1s ease-in-out infinite;
 }
+
+.screen-header__white {
+  background-color: white;
+}
+
+.screen-header__white {
+  color: var(--font-color-black);
+}
+
+.screen-header__icon a {
+  text-decoration: none;
+  color: var(--font-color-black);
+}
+
+.screen-header__hack-column {
+  width: 33%;
+}
+
+.screen-header__hack-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.screen-header__hack-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.screen-header__hack-column a {
+  color:white;
+}

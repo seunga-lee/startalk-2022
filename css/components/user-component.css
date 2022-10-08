@@ -81,3 +81,17 @@
 .user-component__channel {
     margin: 6px;
 }
+
+.user-component__column i {
+    font-size: 28px;
+    color: var(--main-color);
+    margin-right: 20px;
+}
+
+.setting-component {
+    margin-bottom: 30px;
+}
+
+.user-component__column:last-child {
+    color: var(--font-color-gray)
+}

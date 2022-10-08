@@ -14,9 +14,10 @@
 /* screen */
 @import url("screens/login.css");
 @import url("screens/friends.css");
-@import url("screens/chat.css");
+@import url("screens/chats.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/chat.css");
 
 body{
     -ms-overflow-style: none;

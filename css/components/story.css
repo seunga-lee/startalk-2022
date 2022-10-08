@@ -24,12 +24,19 @@
     position: absolute;
     top: 44px;
     left: 46px;
+    transition: all .2s;
 }
+.story__icon-plus:hover {
+    transform: scale(120%);
+    cursor: pointer;
+}
+
 
 .story__icon-sm img{
     height: 60px;
     margin: 2px;
     opacity: .8;
+    transition: all .2s ease-in-out;
 }
 
 .story__icon:nth-child(2),
@@ -38,4 +45,9 @@
     height: 64px;
     width: 64px;
     border-radius: 40px;
+}
+
+
+.story__icon-sm img:hover{
+    opacity: 1;
 }
